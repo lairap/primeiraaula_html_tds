@@ -1,0 +1,35 @@
+#quadrado{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+    shape-outside: inset(10px 0px 10px 20px);
+}
+
+#circulo {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(182, 211, 255);
+    shape-outside: circle();
+    clip-path: circle();
+}
+#circuloCortado {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 6px;
+    background-color: rgb(248, 255, 182);
+    shape-outside: circle(50% at 50%6);
+    clip-path: circle(50% at 0);
+}
+#ellipse {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    shape-outside: ellipse(20% 50%);
+    clip-path: ellipse(20% 50%);
+    background-color: rgb(182, 255, 194);
+}
